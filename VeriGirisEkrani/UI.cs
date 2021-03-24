@@ -7,6 +7,7 @@ using System.Drawing.Printing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+// using System.Web.WebPages;
 using System.Windows.Forms;
 
 namespace VeriGirisEkrani
@@ -35,7 +36,12 @@ namespace VeriGirisEkrani
 
         private void yazdir_button_Click(object sender, EventArgs e)
         {
-            printPreviewDialog1.ShowDialog();
+            
+            // printBarCode();
+            // printPreviewDialog1.ShowDialog();  
+               printDocument1.Print();
+            
+            
         }
 
         private void printDocument1_PrintPage(object sender, System.Drawing.Printing.PrintPageEventArgs e)
@@ -67,7 +73,7 @@ namespace VeriGirisEkrani
             //////
 
             e.Graphics.DrawString("Telefon No: ", font, firca, 450, 150);
-            e.Graphics.DrawString(textBox4.Text, font, firca, 550, 150);
+            e.Graphics.DrawString(tel_no_giris.Text, font, firca, 550, 150);
 
             e.Graphics.DrawString("İl: ", font, firca, 450, 200);
             e.Graphics.DrawString(il_giris.Text, font, firca, 550, 200);
@@ -88,7 +94,14 @@ namespace VeriGirisEkrani
             e.Graphics.DrawString(musteri_ilce_giris.Text, font, firca, 550, 450);
 
             e.Graphics.DrawString("Müşteri Posta Kodu: ", font, firca, 450, 500);
-            
+
+            //QrCode
+            e.Graphics.DrawString("Qr Kod: ", font, firca, 450, 550);
+            e.Graphics.DrawImage(pictureBox1.Image, 550, 600);
+
+
+
+
         }
 
         private void tc_giris_TextChanged(object sender, EventArgs e)
@@ -106,12 +119,12 @@ namespace VeriGirisEkrani
 
         }
 
-        private void textBox3_TextChanged(object sender, EventArgs e)
+        private void textBox_TextChanged(object sender, EventArgs e)
         {
 
         }
 
-        private void textBox4_TextChanged(object sender, EventArgs e)
+        private void tel_no_giris_TextChanged(object sender, EventArgs e)
         {
 
         }
@@ -145,6 +158,36 @@ namespace VeriGirisEkrani
         {
            // PaperSize CustomSize1 = new PaperSize("Benim sayfam", 250, 100);
         }
-      
+
+         private void barcode_button_Click(object sender, EventArgs e)
+        {
+            Zen.Barcode.CodeQrBarcodeDraw brc = Zen.Barcode.BarcodeDrawFactory.CodeQr;
+               pictureBox1.Image = brc.Draw(txtBarcode.Text, 25);   
+            
+        } 
+
+        private void printBarCode()
+        {
+            PrintDialog pd = new PrintDialog();
+            PrintDocument doc = new PrintDocument();
+            doc.PrintPage += doc_PrintPage;
+            pd.Document = doc;
+            if (pd.ShowDialog() == DialogResult.OK)
+            {
+                doc.Print();
+            }
+        }
+
+        private void doc_PrintPage(object sender, PrintPageEventArgs e)
+        {
+            Bitmap bm = new Bitmap(pictureBox1.Width, pictureBox1.Height);
+            pictureBox1.DrawToBitmap(bm, new Rectangle(0, 0, pictureBox1.Width, pictureBox1.Height));
+            bm.Dispose();
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

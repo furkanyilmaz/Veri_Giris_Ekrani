@@ -151,6 +151,7 @@ namespace VeriGirisEkrani
             this.musteri_tcNo_yazdir.Name = "musteri_tcNo_yazdir";
             this.musteri_tcNo_yazdir.Size = new System.Drawing.Size(161, 20);
             this.musteri_tcNo_yazdir.TabIndex = 2;
+            this.musteri_tcNo_yazdir.TextChanged += new System.EventHandler(this.musteri_tcNo_yazdir_TextChanged);
             // 
             // il_ciktisi
             // 
@@ -203,6 +204,7 @@ namespace VeriGirisEkrani
             this.telefon_no_yazdir.Name = "telefon_no_yazdir";
             this.telefon_no_yazdir.Size = new System.Drawing.Size(161, 20);
             this.telefon_no_yazdir.TabIndex = 2;
+            this.telefon_no_yazdir.TextChanged += new System.EventHandler(this.telefon_no_yazdir_TextChanged);
             // 
             // il_yazdir
             // 
@@ -210,6 +212,7 @@ namespace VeriGirisEkrani
             this.il_yazdir.Name = "il_yazdir";
             this.il_yazdir.Size = new System.Drawing.Size(161, 20);
             this.il_yazdir.TabIndex = 2;
+            this.il_yazdir.TextChanged += new System.EventHandler(this.il_yazdir_TextChanged);
             // 
             // ilce_yazdir
             // 
@@ -224,6 +227,7 @@ namespace VeriGirisEkrani
             this.musteri_il_yazdir.Name = "musteri_il_yazdir";
             this.musteri_il_yazdir.Size = new System.Drawing.Size(161, 20);
             this.musteri_il_yazdir.TabIndex = 2;
+            this.musteri_il_yazdir.TextChanged += new System.EventHandler(this.musteri_il_yazdir_TextChanged);
             // 
             // postakodu_yazdir
             // 
@@ -247,6 +251,7 @@ namespace VeriGirisEkrani
             this.musteri_ilce_yazdir.Name = "musteri_ilce_yazdir";
             this.musteri_ilce_yazdir.Size = new System.Drawing.Size(161, 20);
             this.musteri_ilce_yazdir.TabIndex = 2;
+            this.musteri_ilce_yazdir.TextChanged += new System.EventHandler(this.musteri_ilce_yazdir_TextChanged);
             // 
             // musteri_ilce_ciktisi
             // 
@@ -279,6 +284,7 @@ namespace VeriGirisEkrani
             this.musteri_telno_yazdir.Name = "musteri_telno_yazdir";
             this.musteri_telno_yazdir.Size = new System.Drawing.Size(161, 20);
             this.musteri_telno_yazdir.TabIndex = 2;
+            this.musteri_telno_yazdir.TextChanged += new System.EventHandler(this.musteri_telno_yazdir_TextChanged);
             // 
             // Yazici
             // 
@@ -314,6 +320,7 @@ namespace VeriGirisEkrani
             this.Controls.Add(this.label1);
             this.Name = "Yazici";
             this.Text = "Yazici";
+            this.Load += new System.EventHandler(this.Yazici_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

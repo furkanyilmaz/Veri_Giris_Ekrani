@@ -10,3 +10,16 @@ C:\Users\furka\OneDrive\Masaüstü\software_eng\VisualStudioProjects\VeriGirisEk
 C:\Users\furka\OneDrive\Masaüstü\software_eng\VisualStudioProjects\VeriGirisEkrani\VeriGirisEkrani\obj\Debug\VeriGirisEkrani.Keyboard.resources
 C:\Users\furka\OneDrive\Masaüstü\software_eng\VisualStudioProjects\VeriGirisEkrani\VeriGirisEkrani\obj\Debug\VeriGirisEkrani.UI.resources
 C:\Users\furka\OneDrive\Masaüstü\software_eng\VisualStudioProjects\VeriGirisEkrani\VeriGirisEkrani\obj\Debug\VeriGirisEkrani.Yazici.resources
+C:\Users\furka\OneDrive\Masaüstü\software_eng\VisualStudioProjects\VeriGirisEkrani\VeriGirisEkrani\bin\Debug\Zen.Barcode.Core.dll
+C:\Users\furka\OneDrive\Masaüstü\software_eng\VisualStudioProjects\VeriGirisEkrani\VeriGirisEkrani\obj\Debug\VeriGirisEkrani.csproj.CopyComplete
+C:\Users\furka\OneDrive\Masaüstü\software_eng\VisualStudioProjects\VeriGirisEkrani\VeriGirisEkrani\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\furka\OneDrive\Masaüstü\software_eng\VisualStudioProjects\VeriGirisEkrani\VeriGirisEkrani\bin\Debug\System.Web.Helpers.dll
+C:\Users\furka\OneDrive\Masaüstü\software_eng\VisualStudioProjects\VeriGirisEkrani\VeriGirisEkrani\bin\Debug\System.Web.Razor.dll
+C:\Users\furka\OneDrive\Masaüstü\software_eng\VisualStudioProjects\VeriGirisEkrani\VeriGirisEkrani\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\furka\OneDrive\Masaüstü\software_eng\VisualStudioProjects\VeriGirisEkrani\VeriGirisEkrani\bin\Debug\System.Web.WebPages.dll
+C:\Users\furka\OneDrive\Masaüstü\software_eng\VisualStudioProjects\VeriGirisEkrani\VeriGirisEkrani\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\furka\OneDrive\Masaüstü\software_eng\VisualStudioProjects\VeriGirisEkrani\VeriGirisEkrani\bin\Debug\System.Web.Helpers.xml
+C:\Users\furka\OneDrive\Masaüstü\software_eng\VisualStudioProjects\VeriGirisEkrani\VeriGirisEkrani\bin\Debug\System.Web.Razor.xml
+C:\Users\furka\OneDrive\Masaüstü\software_eng\VisualStudioProjects\VeriGirisEkrani\VeriGirisEkrani\bin\Debug\System.Web.WebPages.xml
+C:\Users\furka\OneDrive\Masaüstü\software_eng\VisualStudioProjects\VeriGirisEkrani\VeriGirisEkrani\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\furka\OneDrive\Masaüstü\software_eng\VisualStudioProjects\VeriGirisEkrani\VeriGirisEkrani\bin\Debug\System.Web.WebPages.Razor.xml
