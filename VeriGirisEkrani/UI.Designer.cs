@@ -125,7 +125,7 @@ namespace VeriGirisEkrani
             // 
             this.tel_no.AutoSize = true;
             this.tel_no.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.tel_no.Location = new System.Drawing.Point(773, 10);
+            this.tel_no.Location = new System.Drawing.Point(710, 11);
             this.tel_no.Name = "tel_no";
             this.tel_no.Size = new System.Drawing.Size(157, 18);
             this.tel_no.TabIndex = 5;
@@ -135,7 +135,7 @@ namespace VeriGirisEkrani
             // 
             this.il.AutoSize = true;
             this.il.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.il.Location = new System.Drawing.Point(773, 70);
+            this.il.Location = new System.Drawing.Point(710, 71);
             this.il.Name = "il";
             this.il.Size = new System.Drawing.Size(76, 18);
             this.il.TabIndex = 6;
@@ -145,7 +145,7 @@ namespace VeriGirisEkrani
             // 
             this.ilce.AutoSize = true;
             this.ilce.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.ilce.Location = new System.Drawing.Point(778, 130);
+            this.ilce.Location = new System.Drawing.Point(715, 131);
             this.ilce.Name = "ilce";
             this.ilce.Size = new System.Drawing.Size(44, 18);
             this.ilce.TabIndex = 7;
@@ -155,7 +155,7 @@ namespace VeriGirisEkrani
             // 
             this.musteri_tel_no.AutoSize = true;
             this.musteri_tel_no.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.musteri_tel_no.Location = new System.Drawing.Point(773, 240);
+            this.musteri_tel_no.Location = new System.Drawing.Point(710, 240);
             this.musteri_tel_no.Name = "musteri_tel_no";
             this.musteri_tel_no.Size = new System.Drawing.Size(121, 18);
             this.musteri_tel_no.TabIndex = 8;
@@ -165,7 +165,7 @@ namespace VeriGirisEkrani
             // 
             this.musteri_il.AutoSize = true;
             this.musteri_il.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.musteri_il.Location = new System.Drawing.Point(773, 300);
+            this.musteri_il.Location = new System.Drawing.Point(710, 300);
             this.musteri_il.Name = "musteri_il";
             this.musteri_il.Size = new System.Drawing.Size(91, 18);
             this.musteri_il.TabIndex = 9;
@@ -175,7 +175,7 @@ namespace VeriGirisEkrani
             // 
             this.musteri_ilce.AutoSize = true;
             this.musteri_ilce.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.musteri_ilce.Location = new System.Drawing.Point(773, 360);
+            this.musteri_ilce.Location = new System.Drawing.Point(710, 360);
             this.musteri_ilce.Name = "musteri_ilce";
             this.musteri_ilce.Size = new System.Drawing.Size(118, 18);
             this.musteri_ilce.TabIndex = 10;
@@ -230,7 +230,7 @@ namespace VeriGirisEkrani
             // tel_no_giris
             // 
             this.tel_no_giris.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.tel_no_giris.Location = new System.Drawing.Point(944, 11);
+            this.tel_no_giris.Location = new System.Drawing.Point(881, 11);
             this.tel_no_giris.MaxLength = 11;
             this.tel_no_giris.Name = "tel_no_giris";
             this.tel_no_giris.Size = new System.Drawing.Size(136, 21);
@@ -241,7 +241,7 @@ namespace VeriGirisEkrani
             // il_giris
             // 
             this.il_giris.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.il_giris.Location = new System.Drawing.Point(944, 67);
+            this.il_giris.Location = new System.Drawing.Point(881, 68);
             this.il_giris.MaxLength = 20;
             this.il_giris.Name = "il_giris";
             this.il_giris.Size = new System.Drawing.Size(136, 21);
@@ -252,7 +252,7 @@ namespace VeriGirisEkrani
             // ilce_giris
             // 
             this.ilce_giris.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.ilce_giris.Location = new System.Drawing.Point(944, 127);
+            this.ilce_giris.Location = new System.Drawing.Point(881, 128);
             this.ilce_giris.MaxLength = 20;
             this.ilce_giris.Name = "ilce_giris";
             this.ilce_giris.Size = new System.Drawing.Size(136, 21);
@@ -263,7 +263,7 @@ namespace VeriGirisEkrani
             // musteri_tel_no_giris
             // 
             this.musteri_tel_no_giris.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.musteri_tel_no_giris.Location = new System.Drawing.Point(944, 237);
+            this.musteri_tel_no_giris.Location = new System.Drawing.Point(881, 237);
             this.musteri_tel_no_giris.MaxLength = 11;
             this.musteri_tel_no_giris.Name = "musteri_tel_no_giris";
             this.musteri_tel_no_giris.Size = new System.Drawing.Size(136, 21);
@@ -274,7 +274,7 @@ namespace VeriGirisEkrani
             // musteri_il_giris
             // 
             this.musteri_il_giris.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.musteri_il_giris.Location = new System.Drawing.Point(944, 299);
+            this.musteri_il_giris.Location = new System.Drawing.Point(881, 299);
             this.musteri_il_giris.MaxLength = 20;
             this.musteri_il_giris.Name = "musteri_il_giris";
             this.musteri_il_giris.Size = new System.Drawing.Size(136, 21);
@@ -285,7 +285,7 @@ namespace VeriGirisEkrani
             // musteri_ilce_giris
             // 
             this.musteri_ilce_giris.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.musteri_ilce_giris.Location = new System.Drawing.Point(944, 357);
+            this.musteri_ilce_giris.Location = new System.Drawing.Point(881, 357);
             this.musteri_ilce_giris.MaxLength = 20;
             this.musteri_ilce_giris.Name = "musteri_ilce_giris";
             this.musteri_ilce_giris.Size = new System.Drawing.Size(136, 21);
@@ -296,7 +296,7 @@ namespace VeriGirisEkrani
             // yazdir_button
             // 
             this.yazdir_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.yazdir_button.Location = new System.Drawing.Point(474, 437);
+            this.yazdir_button.Location = new System.Drawing.Point(435, 436);
             this.yazdir_button.Name = "yazdir_button";
             this.yazdir_button.Size = new System.Drawing.Size(169, 41);
             this.yazdir_button.TabIndex = 21;
@@ -402,7 +402,7 @@ namespace VeriGirisEkrani
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1120, 516);
+            this.ClientSize = new System.Drawing.Size(1030, 513);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.txtBarcode);
             this.Controls.Add(this.barcode_button);

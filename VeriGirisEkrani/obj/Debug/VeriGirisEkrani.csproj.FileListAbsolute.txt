@@ -27,3 +27,9 @@ C:\Users\furka\OneDrive\Masaüstü\software_eng\VisualStudioProjects\VeriGirisEk
 C:\Users\furka\OneDrive\Masaüstü\software_eng\VisualStudioProjects\VeriGirisEkrani\VeriGirisEkrani\bin\Debug\Keyboard.resx
 C:\Users\furka\OneDrive\Masaüstü\software_eng\VisualStudioProjects\VeriGirisEkrani\VeriGirisEkrani\bin\Debug\Keyboard.cs
 C:\Users\furka\OneDrive\Masaüstü\software_eng\VisualStudioProjects\VeriGirisEkrani\VeriGirisEkrani\bin\Debug\Keyboard.Designer.cs
+C:\Users\furka\OneDrive\Masaüstü\software_eng\VisualStudioProjects\VeriGirisEkrani\VeriGirisEkrani\bin\Debug\EntityFramework.dll
+C:\Users\furka\OneDrive\Masaüstü\software_eng\VisualStudioProjects\VeriGirisEkrani\VeriGirisEkrani\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\furka\OneDrive\Masaüstü\software_eng\VisualStudioProjects\VeriGirisEkrani\VeriGirisEkrani\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\furka\OneDrive\Masaüstü\software_eng\VisualStudioProjects\VeriGirisEkrani\VeriGirisEkrani\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\furka\OneDrive\Masaüstü\software_eng\VisualStudioProjects\VeriGirisEkrani\VeriGirisEkrani\bin\Debug\EntityFramework.xml
+C:\Users\furka\OneDrive\Masaüstü\software_eng\VisualStudioProjects\VeriGirisEkrani\VeriGirisEkrani\bin\Debug\EntityFramework.SqlServer.xml

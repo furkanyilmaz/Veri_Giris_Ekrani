@@ -9,7 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 // using System.Web.WebPages;
 using System.Windows.Forms;
-
+using System.Data.SQLite;
 
 namespace VeriGirisEkrani
 {
@@ -95,7 +95,31 @@ namespace VeriGirisEkrani
             MessageBox.Show("Girilen Değer Bir Tc Kimlik Numarası Olamaz.");
 
              }
-          
+
+
+            string yol = "Data source=veri_giris_db.db";
+            SQLiteConnection baglanti = new SQLiteConnection(yol);
+            baglanti.Open();
+
+            string sql = "insert into KayitTablosu(gonderen_tcno,gonderen_adres,gonderen_telefon,gonderen_il,gonderen_ilce,alici_tcno,alici_adres,alici_telefon,alici_il,alici_ilce) values(@gonderen_tcno,@gonderen_adres,@gonderen_telefon,@gonderen_il,@gonderen_ilce,@alici_tcno,@alici_adres,@alici_telefon,@alici_il,@alici_ilce)";
+
+            SQLiteCommand komut = new SQLiteCommand(sql, baglanti);
+            komut.Parameters.AddWithValue("@gonderen_tcno", tc_giris.Text);
+            komut.Parameters.AddWithValue("@gonderen_adres", textBox1.Text);
+            komut.Parameters.AddWithValue("@gonderen_telefon", tel_no_giris.Text);
+            komut.Parameters.AddWithValue("@gonderen_il", il_giris.Text);
+            komut.Parameters.AddWithValue("@gonderen_ilce", ilce_giris.Text);
+
+            komut.Parameters.AddWithValue("@alici_tcno", textBox2.Text);
+            komut.Parameters.AddWithValue("@alici_adres", textBox3.Text);
+            komut.Parameters.AddWithValue("@alici_telefon", musteri_tel_no_giris.Text);
+            komut.Parameters.AddWithValue("@alici_il", musteri_il_giris.Text);
+            komut.Parameters.AddWithValue("@alici_ilce", musteri_ilce_giris.Text);
+
+            komut.ExecuteNonQuery();
+            baglanti.Dispose();
+            komut.Dispose();
+            MessageBox.Show("kayıt tamamlandı");
 
 
         }
@@ -115,6 +139,7 @@ namespace VeriGirisEkrani
             
             font = new Font("Arial", 11, FontStyle.Regular);
             e.Graphics.DrawString("Kayıt No: ", font, firca, 100, 70);
+            //kayıt no: 
             
 
 
