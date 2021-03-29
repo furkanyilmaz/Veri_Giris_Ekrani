@@ -29,6 +29,7 @@ namespace VeriGirisEkrani
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UI));
             this.tc_no = new System.Windows.Forms.Label();
             this.adres = new System.Windows.Forms.Label();
@@ -57,14 +58,34 @@ namespace VeriGirisEkrani
             this.barcode_button = new System.Windows.Forms.Button();
             this.txtBarcode = new System.Windows.Forms.TextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
+            this.errorProvider2 = new System.Windows.Forms.ErrorProvider(this.components);
+            this.errorProvider3 = new System.Windows.Forms.ErrorProvider(this.components);
+            this.errorProvider4 = new System.Windows.Forms.ErrorProvider(this.components);
+            this.errorProvider5 = new System.Windows.Forms.ErrorProvider(this.components);
+            this.errorProvider6 = new System.Windows.Forms.ErrorProvider(this.components);
+            this.errorProvider7 = new System.Windows.Forms.ErrorProvider(this.components);
+            this.errorProvider8 = new System.Windows.Forms.ErrorProvider(this.components);
+            this.errorProvider9 = new System.Windows.Forms.ErrorProvider(this.components);
+            this.errorProvider10 = new System.Windows.Forms.ErrorProvider(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider10)).BeginInit();
             this.SuspendLayout();
             // 
             // tc_no
             // 
             this.tc_no.AutoSize = true;
             this.tc_no.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.tc_no.Location = new System.Drawing.Point(110, 40);
+            this.tc_no.Location = new System.Drawing.Point(8, 10);
             this.tc_no.Name = "tc_no";
             this.tc_no.Size = new System.Drawing.Size(123, 18);
             this.tc_no.TabIndex = 0;
@@ -74,7 +95,7 @@ namespace VeriGirisEkrani
             // 
             this.adres.AutoSize = true;
             this.adres.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.adres.Location = new System.Drawing.Point(110, 100);
+            this.adres.Location = new System.Drawing.Point(8, 70);
             this.adres.Name = "adres";
             this.adres.Size = new System.Drawing.Size(87, 18);
             this.adres.TabIndex = 2;
@@ -84,7 +105,7 @@ namespace VeriGirisEkrani
             // 
             this.musteri_tc.AutoSize = true;
             this.musteri_tc.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.musteri_tc.Location = new System.Drawing.Point(110, 270);
+            this.musteri_tc.Location = new System.Drawing.Point(8, 240);
             this.musteri_tc.Name = "musteri_tc";
             this.musteri_tc.Size = new System.Drawing.Size(175, 18);
             this.musteri_tc.TabIndex = 3;
@@ -94,7 +115,7 @@ namespace VeriGirisEkrani
             // 
             this.musteri_adresi.AutoSize = true;
             this.musteri_adresi.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.musteri_adresi.Location = new System.Drawing.Point(110, 330);
+            this.musteri_adresi.Location = new System.Drawing.Point(8, 300);
             this.musteri_adresi.Name = "musteri_adresi";
             this.musteri_adresi.Size = new System.Drawing.Size(65, 18);
             this.musteri_adresi.TabIndex = 4;
@@ -104,7 +125,7 @@ namespace VeriGirisEkrani
             // 
             this.tel_no.AutoSize = true;
             this.tel_no.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.tel_no.Location = new System.Drawing.Point(875, 40);
+            this.tel_no.Location = new System.Drawing.Point(773, 10);
             this.tel_no.Name = "tel_no";
             this.tel_no.Size = new System.Drawing.Size(157, 18);
             this.tel_no.TabIndex = 5;
@@ -114,7 +135,7 @@ namespace VeriGirisEkrani
             // 
             this.il.AutoSize = true;
             this.il.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.il.Location = new System.Drawing.Point(875, 100);
+            this.il.Location = new System.Drawing.Point(773, 70);
             this.il.Name = "il";
             this.il.Size = new System.Drawing.Size(76, 18);
             this.il.TabIndex = 6;
@@ -124,7 +145,7 @@ namespace VeriGirisEkrani
             // 
             this.ilce.AutoSize = true;
             this.ilce.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.ilce.Location = new System.Drawing.Point(880, 160);
+            this.ilce.Location = new System.Drawing.Point(778, 130);
             this.ilce.Name = "ilce";
             this.ilce.Size = new System.Drawing.Size(44, 18);
             this.ilce.TabIndex = 7;
@@ -134,7 +155,7 @@ namespace VeriGirisEkrani
             // 
             this.musteri_tel_no.AutoSize = true;
             this.musteri_tel_no.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.musteri_tel_no.Location = new System.Drawing.Point(875, 270);
+            this.musteri_tel_no.Location = new System.Drawing.Point(773, 240);
             this.musteri_tel_no.Name = "musteri_tel_no";
             this.musteri_tel_no.Size = new System.Drawing.Size(121, 18);
             this.musteri_tel_no.TabIndex = 8;
@@ -144,7 +165,7 @@ namespace VeriGirisEkrani
             // 
             this.musteri_il.AutoSize = true;
             this.musteri_il.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.musteri_il.Location = new System.Drawing.Point(875, 330);
+            this.musteri_il.Location = new System.Drawing.Point(773, 300);
             this.musteri_il.Name = "musteri_il";
             this.musteri_il.Size = new System.Drawing.Size(91, 18);
             this.musteri_il.TabIndex = 9;
@@ -154,7 +175,7 @@ namespace VeriGirisEkrani
             // 
             this.musteri_ilce.AutoSize = true;
             this.musteri_ilce.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.musteri_ilce.Location = new System.Drawing.Point(875, 390);
+            this.musteri_ilce.Location = new System.Drawing.Point(773, 360);
             this.musteri_ilce.Name = "musteri_ilce";
             this.musteri_ilce.Size = new System.Drawing.Size(118, 18);
             this.musteri_ilce.TabIndex = 10;
@@ -163,18 +184,19 @@ namespace VeriGirisEkrani
             // tc_giris
             // 
             this.tc_giris.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.tc_giris.Location = new System.Drawing.Point(325, 41);
+            this.tc_giris.Location = new System.Drawing.Point(223, 11);
             this.tc_giris.MaxLength = 11;
             this.tc_giris.Name = "tc_giris";
             this.tc_giris.Size = new System.Drawing.Size(133, 21);
             this.tc_giris.TabIndex = 11;
             this.tc_giris.TextChanged += new System.EventHandler(this.tc_giris_TextChanged);
+            this.tc_giris.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tc_giris_KeyPress);
             // 
             // textBox1
             // 
             this.textBox1.AcceptsReturn = true;
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.textBox1.Location = new System.Drawing.Point(325, 97);
+            this.textBox1.Location = new System.Drawing.Point(223, 67);
             this.textBox1.MaxLength = 100;
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
@@ -185,18 +207,19 @@ namespace VeriGirisEkrani
             // textBox2
             // 
             this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.textBox2.Location = new System.Drawing.Point(325, 270);
+            this.textBox2.Location = new System.Drawing.Point(223, 240);
             this.textBox2.MaxLength = 11;
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(133, 21);
             this.textBox2.TabIndex = 13;
             this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
+            this.textBox2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox2_KeyPress);
             // 
             // textBox3
             // 
             this.textBox3.AcceptsReturn = true;
             this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.textBox3.Location = new System.Drawing.Point(325, 330);
+            this.textBox3.Location = new System.Drawing.Point(223, 300);
             this.textBox3.MaxLength = 100;
             this.textBox3.Multiline = true;
             this.textBox3.Name = "textBox3";
@@ -207,67 +230,73 @@ namespace VeriGirisEkrani
             // tel_no_giris
             // 
             this.tel_no_giris.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.tel_no_giris.Location = new System.Drawing.Point(1046, 41);
+            this.tel_no_giris.Location = new System.Drawing.Point(944, 11);
             this.tel_no_giris.MaxLength = 11;
             this.tel_no_giris.Name = "tel_no_giris";
             this.tel_no_giris.Size = new System.Drawing.Size(136, 21);
             this.tel_no_giris.TabIndex = 15;
             this.tel_no_giris.TextChanged += new System.EventHandler(this.tel_no_giris_TextChanged);
+            this.tel_no_giris.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tel_no_giris_KeyPress);
             // 
             // il_giris
             // 
             this.il_giris.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.il_giris.Location = new System.Drawing.Point(1046, 97);
+            this.il_giris.Location = new System.Drawing.Point(944, 67);
             this.il_giris.MaxLength = 20;
             this.il_giris.Name = "il_giris";
             this.il_giris.Size = new System.Drawing.Size(136, 21);
             this.il_giris.TabIndex = 16;
             this.il_giris.TextChanged += new System.EventHandler(this.il_giris_TextChanged);
+            this.il_giris.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.il_giris_KeyPress);
             // 
             // ilce_giris
             // 
             this.ilce_giris.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.ilce_giris.Location = new System.Drawing.Point(1046, 157);
+            this.ilce_giris.Location = new System.Drawing.Point(944, 127);
             this.ilce_giris.MaxLength = 20;
             this.ilce_giris.Name = "ilce_giris";
             this.ilce_giris.Size = new System.Drawing.Size(136, 21);
             this.ilce_giris.TabIndex = 17;
             this.ilce_giris.TextChanged += new System.EventHandler(this.ilce_giris_TextChanged);
+            this.ilce_giris.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.ilce_giris_KeyPress);
             // 
             // musteri_tel_no_giris
             // 
             this.musteri_tel_no_giris.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.musteri_tel_no_giris.Location = new System.Drawing.Point(1046, 267);
+            this.musteri_tel_no_giris.Location = new System.Drawing.Point(944, 237);
             this.musteri_tel_no_giris.MaxLength = 11;
             this.musteri_tel_no_giris.Name = "musteri_tel_no_giris";
             this.musteri_tel_no_giris.Size = new System.Drawing.Size(136, 21);
             this.musteri_tel_no_giris.TabIndex = 18;
             this.musteri_tel_no_giris.TextChanged += new System.EventHandler(this.musteri_tel_no_giris_TextChanged);
+            this.musteri_tel_no_giris.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.musteri_tel_no_giris_KeyPress);
             // 
             // musteri_il_giris
             // 
             this.musteri_il_giris.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.musteri_il_giris.Location = new System.Drawing.Point(1046, 329);
+            this.musteri_il_giris.Location = new System.Drawing.Point(944, 299);
             this.musteri_il_giris.MaxLength = 20;
             this.musteri_il_giris.Name = "musteri_il_giris";
             this.musteri_il_giris.Size = new System.Drawing.Size(136, 21);
             this.musteri_il_giris.TabIndex = 19;
             this.musteri_il_giris.TextChanged += new System.EventHandler(this.musteri_il_giris_TextChanged);
+            this.musteri_il_giris.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.musteri_il_giris_KeyPress);
             // 
             // musteri_ilce_giris
             // 
             this.musteri_ilce_giris.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.musteri_ilce_giris.Location = new System.Drawing.Point(1046, 387);
+            this.musteri_ilce_giris.Location = new System.Drawing.Point(944, 357);
             this.musteri_ilce_giris.MaxLength = 20;
             this.musteri_ilce_giris.Name = "musteri_ilce_giris";
             this.musteri_ilce_giris.Size = new System.Drawing.Size(136, 21);
             this.musteri_ilce_giris.TabIndex = 20;
             this.musteri_ilce_giris.TextChanged += new System.EventHandler(this.musteri_ilce_giris_TextChanged);
+            this.musteri_ilce_giris.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.musteri_ilce_giris_KeyPress);
             // 
             // yazdir_button
             // 
             this.yazdir_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.yazdir_button.Location = new System.Drawing.Point(576, 467);
+            this.yazdir_button.Location = new System.Drawing.Point(474, 437);
             this.yazdir_button.Name = "yazdir_button";
             this.yazdir_button.Size = new System.Drawing.Size(169, 41);
             this.yazdir_button.TabIndex = 21;
@@ -305,7 +334,7 @@ namespace VeriGirisEkrani
             // 
             // barcode_button
             // 
-            this.barcode_button.Location = new System.Drawing.Point(216, 432);
+            this.barcode_button.Location = new System.Drawing.Point(114, 402);
             this.barcode_button.Name = "barcode_button";
             this.barcode_button.Size = new System.Drawing.Size(93, 37);
             this.barcode_button.TabIndex = 23;
@@ -315,25 +344,65 @@ namespace VeriGirisEkrani
             // 
             // txtBarcode
             // 
-            this.txtBarcode.Location = new System.Drawing.Point(325, 441);
+            this.txtBarcode.Location = new System.Drawing.Point(223, 411);
             this.txtBarcode.Name = "txtBarcode";
             this.txtBarcode.Size = new System.Drawing.Size(100, 20);
             this.txtBarcode.TabIndex = 24;
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(339, 466);
+            this.pictureBox1.Location = new System.Drawing.Point(237, 436);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(70, 70);
             this.pictureBox1.TabIndex = 25;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
+            // errorProvider1
+            // 
+            this.errorProvider1.ContainerControl = this;
+            // 
+            // errorProvider2
+            // 
+            this.errorProvider2.ContainerControl = this;
+            // 
+            // errorProvider3
+            // 
+            this.errorProvider3.ContainerControl = this;
+            // 
+            // errorProvider4
+            // 
+            this.errorProvider4.ContainerControl = this;
+            // 
+            // errorProvider5
+            // 
+            this.errorProvider5.ContainerControl = this;
+            // 
+            // errorProvider6
+            // 
+            this.errorProvider6.ContainerControl = this;
+            // 
+            // errorProvider7
+            // 
+            this.errorProvider7.ContainerControl = this;
+            // 
+            // errorProvider8
+            // 
+            this.errorProvider8.ContainerControl = this;
+            // 
+            // errorProvider9
+            // 
+            this.errorProvider9.ContainerControl = this;
+            // 
+            // errorProvider10
+            // 
+            this.errorProvider10.ContainerControl = this;
+            // 
             // UI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1342, 548);
+            this.ClientSize = new System.Drawing.Size(1120, 516);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.txtBarcode);
             this.Controls.Add(this.barcode_button);
@@ -364,7 +433,18 @@ namespace VeriGirisEkrani
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "UI";
             this.Load += new System.EventHandler(this.UI_Load);
+            this.Click += new System.EventHandler(this.UI_MouseClick_1);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider10)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -399,5 +479,15 @@ namespace VeriGirisEkrani
         private System.Windows.Forms.Button barcode_button;
         private System.Windows.Forms.TextBox txtBarcode;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.ErrorProvider errorProvider1;
+        private System.Windows.Forms.ErrorProvider errorProvider2;
+        private System.Windows.Forms.ErrorProvider errorProvider3;
+        private System.Windows.Forms.ErrorProvider errorProvider4;
+        private System.Windows.Forms.ErrorProvider errorProvider5;
+        private System.Windows.Forms.ErrorProvider errorProvider6;
+        private System.Windows.Forms.ErrorProvider errorProvider7;
+        private System.Windows.Forms.ErrorProvider errorProvider8;
+        private System.Windows.Forms.ErrorProvider errorProvider9;
+        private System.Windows.Forms.ErrorProvider errorProvider10;
     }
 }

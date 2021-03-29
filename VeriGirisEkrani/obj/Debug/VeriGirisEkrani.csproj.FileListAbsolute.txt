@@ -9,7 +9,6 @@ C:\Users\furka\OneDrive\Masaüstü\software_eng\VisualStudioProjects\VeriGirisEk
 C:\Users\furka\OneDrive\Masaüstü\software_eng\VisualStudioProjects\VeriGirisEkrani\VeriGirisEkrani\obj\Debug\VeriGirisEkrani.pdb
 C:\Users\furka\OneDrive\Masaüstü\software_eng\VisualStudioProjects\VeriGirisEkrani\VeriGirisEkrani\obj\Debug\VeriGirisEkrani.Keyboard.resources
 C:\Users\furka\OneDrive\Masaüstü\software_eng\VisualStudioProjects\VeriGirisEkrani\VeriGirisEkrani\obj\Debug\VeriGirisEkrani.UI.resources
-C:\Users\furka\OneDrive\Masaüstü\software_eng\VisualStudioProjects\VeriGirisEkrani\VeriGirisEkrani\obj\Debug\VeriGirisEkrani.Yazici.resources
 C:\Users\furka\OneDrive\Masaüstü\software_eng\VisualStudioProjects\VeriGirisEkrani\VeriGirisEkrani\bin\Debug\Zen.Barcode.Core.dll
 C:\Users\furka\OneDrive\Masaüstü\software_eng\VisualStudioProjects\VeriGirisEkrani\VeriGirisEkrani\obj\Debug\VeriGirisEkrani.csproj.CopyComplete
 C:\Users\furka\OneDrive\Masaüstü\software_eng\VisualStudioProjects\VeriGirisEkrani\VeriGirisEkrani\bin\Debug\Microsoft.Web.Infrastructure.dll
@@ -23,3 +22,8 @@ C:\Users\furka\OneDrive\Masaüstü\software_eng\VisualStudioProjects\VeriGirisEk
 C:\Users\furka\OneDrive\Masaüstü\software_eng\VisualStudioProjects\VeriGirisEkrani\VeriGirisEkrani\bin\Debug\System.Web.WebPages.xml
 C:\Users\furka\OneDrive\Masaüstü\software_eng\VisualStudioProjects\VeriGirisEkrani\VeriGirisEkrani\bin\Debug\System.Web.WebPages.Deployment.xml
 C:\Users\furka\OneDrive\Masaüstü\software_eng\VisualStudioProjects\VeriGirisEkrani\VeriGirisEkrani\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\furka\OneDrive\Masaüstü\software_eng\VisualStudioProjects\VeriGirisEkrani\VeriGirisEkrani\bin\Debug\System.Data.SQLite.dll
+C:\Users\furka\OneDrive\Masaüstü\software_eng\VisualStudioProjects\VeriGirisEkrani\VeriGirisEkrani\bin\Debug\System.Data.SQLite.xml
+C:\Users\furka\OneDrive\Masaüstü\software_eng\VisualStudioProjects\VeriGirisEkrani\VeriGirisEkrani\bin\Debug\Keyboard.resx
+C:\Users\furka\OneDrive\Masaüstü\software_eng\VisualStudioProjects\VeriGirisEkrani\VeriGirisEkrani\bin\Debug\Keyboard.cs
+C:\Users\furka\OneDrive\Masaüstü\software_eng\VisualStudioProjects\VeriGirisEkrani\VeriGirisEkrani\bin\Debug\Keyboard.Designer.cs

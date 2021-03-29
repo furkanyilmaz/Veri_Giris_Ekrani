@@ -79,7 +79,7 @@ namespace VeriGirisEkrani
             // 
             // letterQ
             // 
-            this.letterQ.Location = new System.Drawing.Point(120, 63);
+            this.letterQ.Location = new System.Drawing.Point(18, 46);
             this.letterQ.Margin = new System.Windows.Forms.Padding(4);
             this.letterQ.Name = "letterQ";
             this.letterQ.Size = new System.Drawing.Size(60, 50);
@@ -90,7 +90,7 @@ namespace VeriGirisEkrani
             // 
             // letterW
             // 
-            this.letterW.Location = new System.Drawing.Point(180, 63);
+            this.letterW.Location = new System.Drawing.Point(78, 46);
             this.letterW.Margin = new System.Windows.Forms.Padding(4);
             this.letterW.Name = "letterW";
             this.letterW.Size = new System.Drawing.Size(60, 50);
@@ -101,7 +101,7 @@ namespace VeriGirisEkrani
             // 
             // lettterR
             // 
-            this.lettterR.Location = new System.Drawing.Point(300, 63);
+            this.lettterR.Location = new System.Drawing.Point(198, 46);
             this.lettterR.Margin = new System.Windows.Forms.Padding(4);
             this.lettterR.Name = "lettterR";
             this.lettterR.Size = new System.Drawing.Size(60, 50);
@@ -112,7 +112,7 @@ namespace VeriGirisEkrani
             // 
             // lettterT
             // 
-            this.lettterT.Location = new System.Drawing.Point(360, 63);
+            this.lettterT.Location = new System.Drawing.Point(258, 46);
             this.lettterT.Margin = new System.Windows.Forms.Padding(4);
             this.lettterT.Name = "lettterT";
             this.lettterT.Size = new System.Drawing.Size(60, 50);
@@ -123,7 +123,7 @@ namespace VeriGirisEkrani
             // 
             // lettterY
             // 
-            this.lettterY.Location = new System.Drawing.Point(420, 63);
+            this.lettterY.Location = new System.Drawing.Point(318, 46);
             this.lettterY.Margin = new System.Windows.Forms.Padding(4);
             this.lettterY.Name = "lettterY";
             this.lettterY.Size = new System.Drawing.Size(60, 50);
@@ -134,7 +134,7 @@ namespace VeriGirisEkrani
             // 
             // lettterU
             // 
-            this.lettterU.Location = new System.Drawing.Point(482, 63);
+            this.lettterU.Location = new System.Drawing.Point(380, 46);
             this.lettterU.Margin = new System.Windows.Forms.Padding(4);
             this.lettterU.Name = "lettterU";
             this.lettterU.Size = new System.Drawing.Size(60, 50);
@@ -145,7 +145,7 @@ namespace VeriGirisEkrani
             // 
             // lettterI
             // 
-            this.lettterI.Location = new System.Drawing.Point(542, 63);
+            this.lettterI.Location = new System.Drawing.Point(440, 46);
             this.lettterI.Margin = new System.Windows.Forms.Padding(4);
             this.lettterI.Name = "lettterI";
             this.lettterI.Size = new System.Drawing.Size(60, 50);
@@ -156,7 +156,7 @@ namespace VeriGirisEkrani
             // 
             // lettterO
             // 
-            this.lettterO.Location = new System.Drawing.Point(603, 63);
+            this.lettterO.Location = new System.Drawing.Point(501, 46);
             this.lettterO.Margin = new System.Windows.Forms.Padding(4);
             this.lettterO.Name = "lettterO";
             this.lettterO.Size = new System.Drawing.Size(60, 50);
@@ -167,7 +167,7 @@ namespace VeriGirisEkrani
             // 
             // lettterP
             // 
-            this.lettterP.Location = new System.Drawing.Point(663, 63);
+            this.lettterP.Location = new System.Drawing.Point(561, 46);
             this.lettterP.Margin = new System.Windows.Forms.Padding(4);
             this.lettterP.Name = "lettterP";
             this.lettterP.Size = new System.Drawing.Size(60, 50);
@@ -178,7 +178,7 @@ namespace VeriGirisEkrani
             // 
             // lettterG2
             // 
-            this.lettterG2.Location = new System.Drawing.Point(724, 63);
+            this.lettterG2.Location = new System.Drawing.Point(622, 46);
             this.lettterG2.Margin = new System.Windows.Forms.Padding(4);
             this.lettterG2.Name = "lettterG2";
             this.lettterG2.Size = new System.Drawing.Size(60, 50);
@@ -189,7 +189,7 @@ namespace VeriGirisEkrani
             // 
             // lettterU2
             // 
-            this.lettterU2.Location = new System.Drawing.Point(784, 63);
+            this.lettterU2.Location = new System.Drawing.Point(682, 46);
             this.lettterU2.Margin = new System.Windows.Forms.Padding(4);
             this.lettterU2.Name = "lettterU2";
             this.lettterU2.Size = new System.Drawing.Size(60, 50);
@@ -200,7 +200,7 @@ namespace VeriGirisEkrani
             // 
             // lettterA
             // 
-            this.lettterA.Location = new System.Drawing.Point(145, 114);
+            this.lettterA.Location = new System.Drawing.Point(43, 97);
             this.lettterA.Margin = new System.Windows.Forms.Padding(4);
             this.lettterA.Name = "lettterA";
             this.lettterA.Size = new System.Drawing.Size(60, 50);
@@ -211,7 +211,7 @@ namespace VeriGirisEkrani
             // 
             // lettterF
             // 
-            this.lettterF.Location = new System.Drawing.Point(325, 114);
+            this.lettterF.Location = new System.Drawing.Point(223, 97);
             this.lettterF.Margin = new System.Windows.Forms.Padding(4);
             this.lettterF.Name = "lettterF";
             this.lettterF.Size = new System.Drawing.Size(60, 50);
@@ -222,7 +222,7 @@ namespace VeriGirisEkrani
             // 
             // lettterK
             // 
-            this.lettterK.Location = new System.Drawing.Point(567, 114);
+            this.lettterK.Location = new System.Drawing.Point(465, 97);
             this.lettterK.Margin = new System.Windows.Forms.Padding(4);
             this.lettterK.Name = "lettterK";
             this.lettterK.Size = new System.Drawing.Size(60, 50);
@@ -233,7 +233,7 @@ namespace VeriGirisEkrani
             // 
             // lettterG
             // 
-            this.lettterG.Location = new System.Drawing.Point(385, 114);
+            this.lettterG.Location = new System.Drawing.Point(283, 97);
             this.lettterG.Margin = new System.Windows.Forms.Padding(4);
             this.lettterG.Name = "lettterG";
             this.lettterG.Size = new System.Drawing.Size(60, 50);
@@ -244,7 +244,7 @@ namespace VeriGirisEkrani
             // 
             // lettterL
             // 
-            this.lettterL.Location = new System.Drawing.Point(627, 114);
+            this.lettterL.Location = new System.Drawing.Point(525, 97);
             this.lettterL.Margin = new System.Windows.Forms.Padding(4);
             this.lettterL.Name = "lettterL";
             this.lettterL.Size = new System.Drawing.Size(60, 50);
@@ -255,7 +255,7 @@ namespace VeriGirisEkrani
             // 
             // lettterD
             // 
-            this.lettterD.Location = new System.Drawing.Point(265, 114);
+            this.lettterD.Location = new System.Drawing.Point(163, 97);
             this.lettterD.Margin = new System.Windows.Forms.Padding(4);
             this.lettterD.Name = "lettterD";
             this.lettterD.Size = new System.Drawing.Size(60, 50);
@@ -266,7 +266,7 @@ namespace VeriGirisEkrani
             // 
             // lettterH
             // 
-            this.lettterH.Location = new System.Drawing.Point(446, 114);
+            this.lettterH.Location = new System.Drawing.Point(344, 97);
             this.lettterH.Margin = new System.Windows.Forms.Padding(4);
             this.lettterH.Name = "lettterH";
             this.lettterH.Size = new System.Drawing.Size(60, 50);
@@ -277,7 +277,7 @@ namespace VeriGirisEkrani
             // 
             // lettterS2
             // 
-            this.lettterS2.Location = new System.Drawing.Point(687, 114);
+            this.lettterS2.Location = new System.Drawing.Point(585, 97);
             this.lettterS2.Margin = new System.Windows.Forms.Padding(4);
             this.lettterS2.Name = "lettterS2";
             this.lettterS2.Size = new System.Drawing.Size(60, 50);
@@ -288,7 +288,7 @@ namespace VeriGirisEkrani
             // 
             // lettterJ
             // 
-            this.lettterJ.Location = new System.Drawing.Point(506, 114);
+            this.lettterJ.Location = new System.Drawing.Point(404, 97);
             this.lettterJ.Margin = new System.Windows.Forms.Padding(4);
             this.lettterJ.Name = "lettterJ";
             this.lettterJ.Size = new System.Drawing.Size(60, 50);
@@ -299,7 +299,7 @@ namespace VeriGirisEkrani
             // 
             // lettter_i
             // 
-            this.lettter_i.Location = new System.Drawing.Point(748, 114);
+            this.lettter_i.Location = new System.Drawing.Point(646, 97);
             this.lettter_i.Margin = new System.Windows.Forms.Padding(4);
             this.lettter_i.Name = "lettter_i";
             this.lettter_i.Size = new System.Drawing.Size(60, 50);
@@ -310,7 +310,7 @@ namespace VeriGirisEkrani
             // 
             // number0
             // 
-            this.number0.Location = new System.Drawing.Point(936, 214);
+            this.number0.Location = new System.Drawing.Point(834, 197);
             this.number0.Margin = new System.Windows.Forms.Padding(4);
             this.number0.Name = "number0";
             this.number0.Size = new System.Drawing.Size(61, 50);
@@ -321,7 +321,7 @@ namespace VeriGirisEkrani
             // 
             // number7
             // 
-            this.number7.Location = new System.Drawing.Point(877, 63);
+            this.number7.Location = new System.Drawing.Point(775, 46);
             this.number7.Margin = new System.Windows.Forms.Padding(4);
             this.number7.Name = "number7";
             this.number7.Size = new System.Drawing.Size(60, 50);
@@ -332,7 +332,7 @@ namespace VeriGirisEkrani
             // 
             // number4
             // 
-            this.number4.Location = new System.Drawing.Point(877, 114);
+            this.number4.Location = new System.Drawing.Point(775, 97);
             this.number4.Margin = new System.Windows.Forms.Padding(4);
             this.number4.Name = "number4";
             this.number4.Size = new System.Drawing.Size(60, 50);
@@ -343,7 +343,7 @@ namespace VeriGirisEkrani
             // 
             // number8
             // 
-            this.number8.Location = new System.Drawing.Point(937, 63);
+            this.number8.Location = new System.Drawing.Point(835, 46);
             this.number8.Margin = new System.Windows.Forms.Padding(4);
             this.number8.Name = "number8";
             this.number8.Size = new System.Drawing.Size(60, 50);
@@ -354,7 +354,7 @@ namespace VeriGirisEkrani
             // 
             // number5
             // 
-            this.number5.Location = new System.Drawing.Point(936, 114);
+            this.number5.Location = new System.Drawing.Point(834, 97);
             this.number5.Margin = new System.Windows.Forms.Padding(4);
             this.number5.Name = "number5";
             this.number5.Size = new System.Drawing.Size(61, 50);
@@ -365,7 +365,7 @@ namespace VeriGirisEkrani
             // 
             // number9
             // 
-            this.number9.Location = new System.Drawing.Point(996, 63);
+            this.number9.Location = new System.Drawing.Point(894, 46);
             this.number9.Margin = new System.Windows.Forms.Padding(4);
             this.number9.Name = "number9";
             this.number9.Size = new System.Drawing.Size(60, 50);
@@ -376,7 +376,7 @@ namespace VeriGirisEkrani
             // 
             // enter
             // 
-            this.enter.Location = new System.Drawing.Point(708, 164);
+            this.enter.Location = new System.Drawing.Point(606, 147);
             this.enter.Margin = new System.Windows.Forms.Padding(4);
             this.enter.Name = "enter";
             this.enter.Size = new System.Drawing.Size(136, 100);
@@ -387,7 +387,7 @@ namespace VeriGirisEkrani
             // 
             // letterS
             // 
-            this.letterS.Location = new System.Drawing.Point(205, 114);
+            this.letterS.Location = new System.Drawing.Point(103, 97);
             this.letterS.Name = "letterS";
             this.letterS.Size = new System.Drawing.Size(60, 50);
             this.letterS.TabIndex = 2;
@@ -397,7 +397,7 @@ namespace VeriGirisEkrani
             // 
             // letterZ
             // 
-            this.letterZ.Location = new System.Drawing.Point(162, 164);
+            this.letterZ.Location = new System.Drawing.Point(60, 147);
             this.letterZ.Name = "letterZ";
             this.letterZ.Size = new System.Drawing.Size(60, 50);
             this.letterZ.TabIndex = 3;
@@ -407,7 +407,7 @@ namespace VeriGirisEkrani
             // 
             // letterX
             // 
-            this.letterX.Location = new System.Drawing.Point(223, 164);
+            this.letterX.Location = new System.Drawing.Point(121, 147);
             this.letterX.Name = "letterX";
             this.letterX.Size = new System.Drawing.Size(60, 50);
             this.letterX.TabIndex = 4;
@@ -417,7 +417,7 @@ namespace VeriGirisEkrani
             // 
             // letterC
             // 
-            this.letterC.Location = new System.Drawing.Point(284, 164);
+            this.letterC.Location = new System.Drawing.Point(182, 147);
             this.letterC.Name = "letterC";
             this.letterC.Size = new System.Drawing.Size(60, 50);
             this.letterC.TabIndex = 5;
@@ -427,7 +427,7 @@ namespace VeriGirisEkrani
             // 
             // letterV
             // 
-            this.letterV.Location = new System.Drawing.Point(345, 164);
+            this.letterV.Location = new System.Drawing.Point(243, 147);
             this.letterV.Name = "letterV";
             this.letterV.Size = new System.Drawing.Size(60, 50);
             this.letterV.TabIndex = 6;
@@ -437,7 +437,7 @@ namespace VeriGirisEkrani
             // 
             // letterB
             // 
-            this.letterB.Location = new System.Drawing.Point(406, 164);
+            this.letterB.Location = new System.Drawing.Point(304, 147);
             this.letterB.Name = "letterB";
             this.letterB.Size = new System.Drawing.Size(60, 50);
             this.letterB.TabIndex = 7;
@@ -447,7 +447,7 @@ namespace VeriGirisEkrani
             // 
             // letterN
             // 
-            this.letterN.Location = new System.Drawing.Point(467, 164);
+            this.letterN.Location = new System.Drawing.Point(365, 147);
             this.letterN.Name = "letterN";
             this.letterN.Size = new System.Drawing.Size(60, 50);
             this.letterN.TabIndex = 8;
@@ -457,7 +457,7 @@ namespace VeriGirisEkrani
             // 
             // letterM
             // 
-            this.letterM.Location = new System.Drawing.Point(527, 164);
+            this.letterM.Location = new System.Drawing.Point(425, 147);
             this.letterM.Name = "letterM";
             this.letterM.Size = new System.Drawing.Size(60, 50);
             this.letterM.TabIndex = 9;
@@ -467,7 +467,7 @@ namespace VeriGirisEkrani
             // 
             // letterO2
             // 
-            this.letterO2.Location = new System.Drawing.Point(587, 164);
+            this.letterO2.Location = new System.Drawing.Point(485, 147);
             this.letterO2.Name = "letterO2";
             this.letterO2.Size = new System.Drawing.Size(60, 50);
             this.letterO2.TabIndex = 10;
@@ -477,7 +477,7 @@ namespace VeriGirisEkrani
             // 
             // letterC2
             // 
-            this.letterC2.Location = new System.Drawing.Point(647, 164);
+            this.letterC2.Location = new System.Drawing.Point(545, 147);
             this.letterC2.Name = "letterC2";
             this.letterC2.Size = new System.Drawing.Size(60, 50);
             this.letterC2.TabIndex = 11;
@@ -487,7 +487,7 @@ namespace VeriGirisEkrani
             // 
             // space_button
             // 
-            this.space_button.Location = new System.Drawing.Point(194, 214);
+            this.space_button.Location = new System.Drawing.Point(92, 197);
             this.space_button.Name = "space_button";
             this.space_button.Size = new System.Drawing.Size(513, 50);
             this.space_button.TabIndex = 12;
@@ -497,7 +497,7 @@ namespace VeriGirisEkrani
             // 
             // number1
             // 
-            this.number1.Location = new System.Drawing.Point(877, 164);
+            this.number1.Location = new System.Drawing.Point(775, 147);
             this.number1.Name = "number1";
             this.number1.Size = new System.Drawing.Size(60, 50);
             this.number1.TabIndex = 13;
@@ -507,7 +507,7 @@ namespace VeriGirisEkrani
             // 
             // number3
             // 
-            this.number3.Location = new System.Drawing.Point(996, 164);
+            this.number3.Location = new System.Drawing.Point(894, 147);
             this.number3.Name = "number3";
             this.number3.Size = new System.Drawing.Size(60, 50);
             this.number3.TabIndex = 15;
@@ -517,7 +517,7 @@ namespace VeriGirisEkrani
             // 
             // left_button
             // 
-            this.left_button.Location = new System.Drawing.Point(877, 214);
+            this.left_button.Location = new System.Drawing.Point(775, 197);
             this.left_button.Name = "left_button";
             this.left_button.Size = new System.Drawing.Size(60, 50);
             this.left_button.TabIndex = 16;
@@ -527,7 +527,7 @@ namespace VeriGirisEkrani
             // 
             // right_button
             // 
-            this.right_button.Location = new System.Drawing.Point(996, 214);
+            this.right_button.Location = new System.Drawing.Point(894, 197);
             this.right_button.Name = "right_button";
             this.right_button.Size = new System.Drawing.Size(60, 50);
             this.right_button.TabIndex = 17;
@@ -537,7 +537,7 @@ namespace VeriGirisEkrani
             // 
             // number6
             // 
-            this.number6.Location = new System.Drawing.Point(996, 114);
+            this.number6.Location = new System.Drawing.Point(894, 97);
             this.number6.Name = "number6";
             this.number6.Size = new System.Drawing.Size(60, 50);
             this.number6.TabIndex = 19;
@@ -547,7 +547,7 @@ namespace VeriGirisEkrani
             // 
             // number2
             // 
-            this.number2.Location = new System.Drawing.Point(937, 164);
+            this.number2.Location = new System.Drawing.Point(835, 147);
             this.number2.Name = "number2";
             this.number2.Size = new System.Drawing.Size(60, 50);
             this.number2.TabIndex = 20;
@@ -557,7 +557,7 @@ namespace VeriGirisEkrani
             // 
             // letterE
             // 
-            this.letterE.Location = new System.Drawing.Point(240, 63);
+            this.letterE.Location = new System.Drawing.Point(138, 46);
             this.letterE.Name = "letterE";
             this.letterE.Size = new System.Drawing.Size(60, 50);
             this.letterE.TabIndex = 21;
@@ -569,7 +569,7 @@ namespace VeriGirisEkrani
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1226, 337);
+            this.ClientSize = new System.Drawing.Size(1000, 274);
             this.Controls.Add(this.letterE);
             this.Controls.Add(this.number2);
             this.Controls.Add(this.number6);
